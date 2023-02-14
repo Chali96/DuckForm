@@ -2,24 +2,24 @@
     font-family: 'Kantumruy Pro', sans-serif;
 }
 .Iphone14{
-    position: absolute;
+    position: absolute;    
     height: 854px;
-    width: 390px;
+    max-width: 390px;
     border-radius: 28px;
 }
 
 .Rectangle1{
     position: absolute;
     z-index: 1;
-    left: 23px;
-    top: 287px;
+    margin-left: 23px;
+    margin-top: 287px;
 }
 
 .Form{
+    position: absolute;
     display: flex;
     flex-direction: column;
     z-index: 2;
-    position: absolute;
     width: 141px;
     height: 34px;
     left: 50px;
@@ -28,8 +28,8 @@
 
 .LoginSignup{
     width: 215px;
-    margin: 25px;
     height: 36px;
+    margin: 20px;
     font-family: 'Kantumruy';
     font-style: normal;
     border-bottom: 2px solid;
@@ -43,15 +43,18 @@
 }
 
 .input{
+    margin-bottom: 40px;
     border-radius: 35px;
-    border: 1px solid #0000000D
+    border: 1px solid #0000000D 
+       
 }
+.input:hover {
+    background-color: rgb(218, 210, 199);
+  }
 
 .ipt1{
     width: 141px;
     height: 34px;
-    left: 50px;
-    top: 393px;
 }
 
 .ipt2{
@@ -59,12 +62,13 @@
     height: 35px;
     left: 50px;
     top: 459px;
+   
 }
 
 .ipt3{
     width: 198px;
     height: 35px;
-    left: 50px;
+    left: 50;
     top: 524px;
 }
 
@@ -83,6 +87,7 @@
     display: flex;
     flex-direction: row;
     margin: 18px;
+    margin-top: 10px;
 }
 .btn{
     width: 129px;
@@ -97,13 +102,12 @@
 }
 
 .btn2{
-   
     margin-left: 30px;
     background: rgba(34, 122, 255, 0.4);
 }
 
 .btntext1{
-    margin: 05px;
+    margin: 5px;
     width: 91px;
     height: 36px;
     font-family: 'Kantumruy';
@@ -135,3 +139,5 @@
     color: rgb(39, 8, 118);
     background-color: transparent;
   }
+
+ 
